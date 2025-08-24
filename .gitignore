@@ -36,6 +36,16 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
+#project files
+data/masks
+data/processed
+notebooks/data
+notebooks/src
+notebooks/outputs
+notebooks/tests
+outputs/
+venv/
+
 # Unit test / coverage reports
 htmlcov/
 .tox/
