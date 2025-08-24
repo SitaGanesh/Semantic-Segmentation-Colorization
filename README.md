@@ -506,6 +506,20 @@ Dual Heads:
 1. Segmentation: 64→32→n_classes
 2. Colorization: 64→32→2 (AB channels)
 ```
+## Images Walkthrough
+
+![15Image1](https://github.com/user-attachments/assets/f0772334-f59b-4c0a-bdbe-7e6f037628f7)
+
+![16Image2](https://github.com/user-attachments/assets/00a76e7e-df8e-4792-9cde-8fb2ef91447b)
+
+![17Image3](https://github.com/user-attachments/assets/c9c202c8-b9ea-4097-a7ef-9386bf7284bf)
+
+![18Image4](https://github.com/user-attachments/assets/283d5537-2411-4fe7-bcb5-eea394142dca)
+
+![19Image5](https://github.com/user-attachments/assets/e1473be5-1782-481c-82b8-a669d9899b3a)
+![20Image6](https://github.com/user-attachments/assets/5767836b-a6e8-472f-847f-02144b872964)
+![21Images7](https://github.com/user-attachments/assets/e4fe86d0-d6bc-466b-a000-035e06af2da0)
+
 
 ## 🎨 Understanding Color Science
 
@@ -583,38 +597,14 @@ python src/train.py --batch-size 32
 
 ## 📚 Further Reading & References
 
-### Key Papers:
-1. **"Colorful Image Colorization"** - Zhang et al. (2016)
-2. **"Deep Residual Learning"** - He et al. (2016)  
-3. **"U-Net: Convolutional Networks for Biomedical Image Segmentation"** - Ronneberger et al. (2015)
-
 ### Useful Resources:
 - [PyTorch Documentation](https://pytorch.org/docs/)
 - [Color Space Theory](https://en.wikipedia.org/wiki/CIELAB_color_space)
 - [Semantic Segmentation Overview](https://paperswithcode.com/task/semantic-segmentation)
 
-## 🆘 Getting Help
-
-### If You're Stuck:
-1. **Check the Console Output:** Error messages usually point to the issue
-2. **Verify File Structure:** Ensure all files are in correct directories  
-3. **Test with Dummy Data:** Let system generate test data first
-4. **Check Dependencies:** Ensure all packages are installed correctly
-5. **GPU vs CPU:** Try running on CPU if GPU issues occur
-
-### Community Support:
-- **GitHub Issues:** Report bugs and feature requests
-- **Documentation:** Refer to this comprehensive README
-- **Code Comments:** Detailed explanations in source code
-
 ---
 
-## 🎉 Congratulations!
-
-You now have a complete understanding of the Semantic Colorization project! This system combines cutting-edge deep learning techniques to solve a challenging computer vision problem. Whether you're using it for research, education, or practical applications, you have all the tools and knowledge needed to succeed.
 
 **Happy Colorizing! 🎨**
 
 ---
-
-*This project demonstrates the power of multi-task learning in computer vision, where learning multiple related tasks (segmentation + colorization) leads to better performance than learning each task individually.*
