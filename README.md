@@ -99,7 +99,7 @@ Colorization Loss: MSE Loss
 ## 📁 Project Structure Deep Dive
 
 ```
-semantic-colorizer/
+Semantic-Segmentation-Colorization/
 ├── 📁 data/
 │   ├── raw/                  # 🎨 Your colorful training images
 │   ├── masks/                # 🎯 Ground-truth segmentation masks  
@@ -145,8 +145,8 @@ python --version
 ### Step 2: Clone the Repository
 ```bash
 # Open terminal/command prompt and run:
-git clone <your-repository-url>
-cd semantic-colorizer
+git clone https://github.com/SitaGanesh/Semantic-Segmentation-Colorization.git
+cd Semantic-Segmentation-Colorization
 
 # Verify you're in the right directory:
 ls
@@ -594,13 +594,6 @@ python src/train.py --batch-size 32
 2. **New Loss Function:** Modify `src/train.py`
 3. **New Metrics:** Add to `src/utils.py`
 4. **GUI Improvements:** Enhance `src/gui.py`
-
-## 📚 Further Reading & References
-
-### Useful Resources:
-- [PyTorch Documentation](https://pytorch.org/docs/)
-- [Color Space Theory](https://en.wikipedia.org/wiki/CIELAB_color_space)
-- [Semantic Segmentation Overview](https://paperswithcode.com/task/semantic-segmentation)
 
 ---
 
